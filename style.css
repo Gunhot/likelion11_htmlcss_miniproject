@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'Tenada';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Tenada";
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+header{
+    height: 40px;
+    background-color: #333;
+}
+
+main{
+    height: 600px;
+    width: 750px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+footer{
+    height: 200px;
+    background-color: white;
+    text-align : center;
+    color: rgb(170, 170, 170);
+    padding: 50px;
+}
+
+#top{
+    height: 60px;
+    background-color: #f0cdea;
+    margin-bottom: 25px;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+}
+
+#container{
+    height: 410px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    /* background-color: white; */
+}
+
+aside{
+    height: 110px;
+    background-color: #f8f8f8;
+    /* background-color: rgb(175, 221, 226); */
+    margin-bottom: 60px;
+    margin: 0 15px 60px 15px;
+    display:flex;
+    justify-content:space-between;
+}
+
+section{
+    height: 45%;
+    width: 30%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+section p {
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.bg {
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+}
+
+#coloring:hover{
+    transform: scale(1.4);
+    transition: all 0.2s linear;
+}
+
+#coloring{
+    background-image: url("./under_the_sea.jfif");
+    background-size: cover;
+    position: relative;
+    color : white;
+    /* color: white; */
+}
+
+#hobby:hover{
+    transform: scale(1.4);
+    transition: all 0.2s linear;
+}
+
+#hobby{
+    background-image: url("./hobby.jfif");
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+#profile:hover{
+    transform: scale(1.4);
+    transition: all 0.2s linear;
+}
+
+#profile{
+    background-image: url("./image.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 12px;
+    position: relative;
+}
+
+#food:hover{
+    transform: scale(1.4);
+    transition: all 0.2s linear;
+}
+
+#food {
+    background-image: url("./eulmildae.jfif");
+    background-size: cover;
+    color : white;
+    position: relative;
+}
+
+#movie:hover{
+    transform: scale(1.4);
+    transition: all 0.2s linear;
+}
+
+#movie {
+    background-image: url("./fight_club.jfif");
+    background-size: cover;
+    position: relative;
+    color : white;
+    /* height: 45%;
+    width: 30%; */
+}
+
+#youtuber:hover{
+    transform: scale(1.4);
+    transition: all 0.2s linear;
+}
+
+#youtuber {
+    background-image: url("./youtuber.jfif");
+    background-size: cover;
+    color : white;
+    position: relative;
+}
+
+#team{
+    width: 470px;
+    height: 100%;
+    background-color: hwb(258 70% 11%);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding : 25px;
+    text-align: center;
+    float: left;
+
+}
+
+#alert {
+    display: none;
+    text-align: center;
+    padding-top: 300px;
+}
+
+#hi{
+    width: 230px;
+    height: 100%;
+    background-color: pink;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    float: right;
+    text-align: center;
+    padding:50px;
+}
+
+@media (max-width: 600px) {
+    #main-container {
+        display: none;
+    }
+    #alert {
+        display: block;
+    }
+}
+/* 
+@media (min-width: 1000px) {
+    .mobile {
+        color: tomato;
+    }
+} */
+
+
